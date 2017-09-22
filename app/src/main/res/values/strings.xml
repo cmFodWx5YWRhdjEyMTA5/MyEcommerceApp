@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyEcommerceDemo</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="hint_newpassword">New Password</string>
+    <string name="hint_confirmpassword">Confirm Password</string>
+    <string name="title_activity_category">CategoryActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_shoppingcart">Shopping Cart</string>
+    <string name="nav_item_orderhistory">Order History</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <string-array name="nav_labels">
+        <item> @string/nav_item_home</item>
+        <item> @string/nav_item_shoppingcart</item>
+        <item> @string/nav_item_orderhistory</item>
+        <item> @string/nav_item_logout</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_shop">ShopActivity</string>
+
+    <string name="action_logout">Logout</string>
+</resources>

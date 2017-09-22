@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="4dp"
+        app:cardBackgroundColor="#AAFFAA"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background">
+
+            <ImageView
+                android:id="@+id/sub_category_image"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@mipmap/ic_launcher" />
+            <!--String ID, String ProductName, String Quantity, String Prize,String Description-->
+
+            <TextView
+                android:id="@+id/sub_category_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/sub_category_image"
+                android:layout_toRightOf="@+id/sub_category_image"
+                android:text="ID"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/sub_category_name"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/sub_category_id"
+                android:layout_toRightOf="@+id/sub_category_id"
+                android:paddingLeft="15dp"
+                android:paddingStart="15dp"
+                android:text="Sub Name"
+                android:textAllCaps="false"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/sub_category_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sub_category_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/sub_category_image"
+                android:layout_toRightOf="@+id/sub_category_image"
+                android:text="Description"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
